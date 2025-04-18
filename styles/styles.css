@@ -1,0 +1,109 @@
+html, body {
+    min-height: 100%;
+}
+
+body{
+    animation: fadeIn 4s;
+    text-align: center;
+    background-image: linear-gradient(rgb(146, 155, 216), rgb(72, 94, 192));
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.centered-element{
+    top: 50%;
+    left: 50%;
+}
+
+
+a{
+    color: rgb(238, 191, 255);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:hover{
+    font-weight: lighter;
+    color: rgb(30, 0, 121);
+}
+
+input{
+    color: rgb(255, 234, 0);
+    border-radius: 9px;
+    border-color: rgb(31, 0, 34);
+    border-style:solid;
+    background-color: rgb(20, 0, 28);
+    box-shadow: 30%;
+}
+input:hover{
+    color: rgb(0, 238, 255);
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(29, 29, 29);
+}
+button{
+    color: rgb(255, 234, 0);
+    border-radius: 9px;
+    border-color: rgb(31, 0, 34);
+    border-style:solid;
+    background-color: rgb(20, 0, 28);
+    box-shadow: 30%;
+}
+button:hover{
+    
+    color: rgb(0, 238, 255);
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+h6 {
+    font-weight: lighter;
+    color: rgb(21, 0, 75);
+}
+h5{
+    color: rgb(67, 0, 59);
+}
+
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+}
+header{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .textbox {
+    width: 1000px;
+    height: 500px; 
+    line-height: 1.5; 
+    padding: 10px 5px; 
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
