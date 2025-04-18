@@ -39,4 +39,5 @@ function ReadMessages($conn, $name) {
         return $result;
     } else return "Couldn't Find Anything";
 }
+
 ?>
